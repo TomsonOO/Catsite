@@ -6,7 +6,7 @@ function PhotoContainer() {
 
 
   return (
-    <div className="">
+    <div className="mb-14 px-24">
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4" >
         
         <CatImage>
@@ -58,6 +58,9 @@ function PhotoContainer() {
 
         <CatImage>
           <img src={require(".././images/vertical/15.jpg")} className="card" />
+        </CatImage>
+        <CatImage>
+          <img src={require(".././images/vertical/16.jpg")} className="card" />
         </CatImage>
      </div>
 

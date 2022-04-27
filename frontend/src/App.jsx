@@ -1,8 +1,7 @@
 import Navbar from "./components/Navbar";
 import Slider from "./components/Slider";
 import PhotoContainer from "./components/PhotoContainer";
-import CatUpload from "./components/CatUpload";
-
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -10,10 +9,10 @@ function App() {
       <div className="w-full">
         <Navbar />
         <Slider />
-        <PhotoContainer/>
-        
-        
+        <PhotoContainer />        
+        <Footer />
       </div>
+
 
     </div>
   )

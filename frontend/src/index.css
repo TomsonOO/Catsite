@@ -12,4 +12,9 @@
     margin-right: auto;
     margin-top: 33px;
   }
+  .card:hover{
+    transition: transform 0.3s, opacity 0.3s;
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+  }
 }
