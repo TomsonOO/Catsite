@@ -7,7 +7,6 @@ import { ImagesProvider } from './context/ImagesContext'
 
 function App() {
 
-
   return (
     <ImagesProvider>
       <div className="bg-amber-100 m-0">

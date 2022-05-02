@@ -1,3 +1,3 @@
-# Catsite
+# Cat Gallery
 
-Website with cat images
+https://catgallery.herokuapp.com

@@ -23,7 +23,7 @@ export const ImagesProvider = ({ children }) => {
       imagesVertical.push(imgUrl)
     }
     url = "https://cat-storage.s3.amazonaws.com/media/images/horizontal/"
-    for(var i=26; i<34; i++){
+    for(var i=26; i<36; i++){
       const fullUrl = url + i + ".jpg"
       const img = await fetch(fullUrl)
       const imgBlob = await img.blob()
