@@ -15,7 +15,7 @@ export const ImagesProvider = ({ children }) => {
   const fetchImages = async () => {
     try {
       // Adjust the URL based on your Django backend endpoint
-      const apiUrl = 'http://localhost:8000/aws/list-public-images/';
+      const apiUrl = process.env.API_URL || 'http://localhost:8000/listImages/';
       const response = await axios.get(apiUrl);
 
       // Assuming the backend returns a structure like { vertical: [...], horizontal: [...] }
