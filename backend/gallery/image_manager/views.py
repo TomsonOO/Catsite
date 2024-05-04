@@ -16,8 +16,8 @@ class ListImagesAPIView(generics.ListAPIView):
                                  aws_secret_access_key=settings.AWS_SECRET_ACCESS_KEY
                                  )
 
-        bucket_name = 'gallery-react'
-        prefix = 'Public/'
+        bucket_name = settings.AWS_STORAGE_BUCKET_NAME
+        prefix = 'old-gallery/'
 
         vertical_images = []
         horizontal_images = []
